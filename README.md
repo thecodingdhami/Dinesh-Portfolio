@@ -63,3 +63,7 @@ portfolio/
 ## 🌟 Connect with Me
 
 Feel free to reach out via email or LinkedIn for collaboration or feedback!
+* **Email:** [dineshdhamidn@gmail.com](mailto:dineshdhamidn@gmail.com)
+* **Phone:** +977-9866109958
+* **GitHub:** [github.com/thecodingdhami](https://github.com/thecodingdhami)
+* **LinkedIn:** [linkedin.com/in/thecodingdhami](https://linkedin.com/in/thecodingdhami)
