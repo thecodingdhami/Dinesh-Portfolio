@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.strength p {
+    margin: 5px 0;
+    font-size: 16px;
+}
