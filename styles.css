@@ -331,6 +331,30 @@ profile-photo .img{
   font-size: 14px;
 }
 
+/* Filter Buttons */
+.project-filter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-btn {
+  padding: 8px 20px;
+  margin: 0 8px;
+  border: none;
+  border-radius: 25px;
+  background-color: #fed700;
+  color: #202020;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #e5c100;
+  transform: scale(1.05);
+}
+
 /* Grid layout with 2 columns */
 .projects {
   display: grid;
