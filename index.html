@@ -197,18 +197,22 @@
     </section>
 
 
-    <!-------------------------- Projects -------------------------->
-<section class="project-content" id="projects">
+ <section class="project-content" id="projects">
     <div class="container">
         <div class="project-title">
             <h4>My Projects</h4>
             <p>Discover my projects, where creativity meets innovation</p>
         </div>
 
-        <div class="projects">
+        <!-- Filter Buttons -->
+        <div class="project-filter">
+            <button class="filter-btn" data-type="mini">Mini Projects</button>
+            <button class="filter-btn active" data-type="big">Big Projects</button>
+        </div>
 
-            <!-- 1st Project -->
-            <div class="project">
+        <div class="projects">
+            <!-- Mini Projects -->
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>To-Do-List-App Using JS</h4>
                     <p>A simple JavaScript to-do list app to manage tasks efficiently.</p>
@@ -216,8 +220,7 @@
                 <a href="https://thecodingdhami.github.io/To-Do-List-App/" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 2nd Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Simple-Calculator</h4>
                     <p>An interactive calculator built with HTML, CSS, and JS.</p>
@@ -225,8 +228,7 @@
                 <a href="https://thecodingdhami.github.io/simple-calculator/" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 3rd Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Tic-Tac-Toe Game</h4>
                     <p>Classic Tic-Tac-Toe game using JavaScript for fun gameplay.</p>
@@ -234,44 +236,7 @@
                 <a href="https://thecodingdhami.github.io/Tic-Tac-Toe/" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 4th Project -->
-            <div class="project">
-                <div class="project-info">
-                    <h4>Tic-Tac-Toe Game Using Python</h4>
-                    <p>Terminal-based Tic-Tac-Toe game created in Python.</p>
-                </div>
-                <a href="https://github.com/thecodingdhami/tictactoegame.py" target="_blank" class="project-btn">View Project</a>
-            </div>
-
-            <!-- 5th Project -->
-            <div class="project">
-                <div class="project-info">
-                    <h4>Quizzer Using Flask</h4>
-                    <p>A quiz web app built with Flask, currently under development.</p>
-                </div>
-                <a href="https://github.com/thecodingdhami/Quizzer" target="_blank" class="project-btn">On Going</a>
-            </div>
-
-            <!-- 6th Project -->
-            <div class="project">
-                <div class="project-info">
-                    <h4>Email-OTP Using Flask</h4>
-                    <p>Flask project to send and verify OTPs via email.</p>
-                </div>
-                <a href="https://github.com/thecodingdhami/FlaskEmailOTP" target="_blank" class="project-btn">View Project</a>
-            </div>
-
-            <!-- 7th Project -->
-            <div class="project">
-                <div class="project-info">
-                    <h4>Google-OAuth Using Flask</h4>
-                    <p>Implement Google authentication in Flask applications.</p>
-                </div>
-                <a href="https://github.com/thecodingdhami/flask_google_oauth" target="_blank" class="project-btn">View Project</a>
-            </div>
-
-            <!-- 8th Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Digital Clock Using JS</h4>
                     <p>A real-time digital clock built with JavaScript.</p>
@@ -279,17 +244,7 @@
                 <a href="https://dineshsinghdhami.com.np/digital-clock" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 9th Project -->
-            <div class="project">
-                <div class="project-info">
-                    <h4>Digital Clock Using Python</h4>
-                    <p>Python-based digital clock with GUI using Tkinter.</p>
-                </div>
-                <a href="https://github.com/thecodingdhami/digital-clock.py" target="_blank" class="project-btn">View Project</a>
-            </div>
-
-            <!-- 10th Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Countdown Timer Using JS</h4>
                     <p>A countdown timer web app built with JavaScript.</p>
@@ -297,8 +252,7 @@
                 <a href="https://dineshsinghdhami.com.np/countdown-timer" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 11th Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Temperature Converter Using JS</h4>
                     <p>Convert temperatures between Celsius and Fahrenheit easily.</p>
@@ -306,8 +260,7 @@
                 <a href="https://dineshsinghdhami.com.np/temperature-converter" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 12th Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>Password Generator Using JS</h4>
                     <p>Generate strong and random passwords for security purposes.</p>
@@ -315,8 +268,7 @@
                 <a href="https://dineshsinghdhami.com.np/password-generator" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
-            <!-- 13th Project -->
-            <div class="project">
+            <div class="project" data-type="mini">
                 <div class="project-info">
                     <h4>QR Code Generator Using JS</h4>
                     <p>Create QR codes dynamically with JavaScript.</p>
@@ -324,15 +276,51 @@
                 <a href="https://dineshsinghdhami.com.np/qr-code-generator" target="_blank" class="project-btn">Live Preview</a>
             </div>
 
+            <!-- Big Projects -->
+            <div class="project" data-type="big">
+                <div class="project-info">
+                    <h4>Tic-Tac-Toe Game Using Python</h4>
+                    <p>Terminal-based Tic-Tac-Toe game created in Python.</p>
+                </div>
+                <a href="https://github.com/thecodingdhami/tictactoegame.py" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project" data-type="big">
+                <div class="project-info">
+                    <h4>Quizzer Using Flask</h4>
+                    <p>A quiz web app built with Flask, currently under development.</p>
+                </div>
+                <a href="https://github.com/thecodingdhami/Quizzer" target="_blank" class="project-btn">On Going</a>
+            </div>
+
+            <div class="project" data-type="big">
+                <div class="project-info">
+                    <h4>Email-OTP Using Flask</h4>
+                    <p>Flask project to send and verify OTPs via email.</p>
+                </div>
+                <a href="https://github.com/thecodingdhami/FlaskEmailOTP" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project" data-type="big">
+                <div class="project-info">
+                    <h4>Google-OAuth Using Flask</h4>
+                    <p>Implement Google authentication in Flask applications.</p>
+                </div>
+                <a href="https://github.com/thecodingdhami/flask_google_oauth" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project" data-type="big">
+                <div class="project-info">
+                    <h4>Digital Clock Using Python</h4>
+                    <p>Python-based digital clock with GUI using Tkinter.</p>
+                </div>
+                <a href="https://github.com/thecodingdhami/digital-clock.py" target="_blank" class="project-btn">View Project</a>
+            </div>
         </div>
     </div>
 </section>
 
-
-
-
-             
-                
+          
         
 
         <!-------------------------- Contact Me -------------------------->
