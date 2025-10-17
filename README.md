@@ -12,6 +12,7 @@ Hi, I’m **Dinesh Singh Dhami**, a Full Stack UX Designer and B.E in Computer E
 * **Phone:** +977-9866109958
 * **GitHub:** [github.com/thecodingdhami](https://github.com/thecodingdhami)
 * **LinkedIn:** [linkedin.com/in/thecodingdhami](https://linkedin.com/in/thecodingdhami)
+* **X-(Twitter):** [https://x.com/thecodingdhami](https://x.com/thecodingdhami)
 
 ---
 ## 🖼 Portfolio Preview
