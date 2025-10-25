@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App | JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <header class="header">
+      <h1>QuizMaster</h1>
+      <div class="timer">15</div>
+    </header>
+
+    <div class="alert"></div>
+
+    <div class="container">
+      <div class="intro">
+        <h2>Test Your Knowledge</h2>
+        <p>Sharpen your mind with our interactive quiz.</p>
+        <button class="btn startBtn">Start Quiz</button>
+      </div>
+
+      <div class="quiz-box hidden">
+        <div class="question-box">
+          <h3 class="question"></h3>
+        </div>
+        <div class="choices"></div>
+        <button class="btn nextBtn">Next Question</button>
+        <div class="scoreCard"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
